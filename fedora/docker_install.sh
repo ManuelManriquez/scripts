@@ -23,3 +23,5 @@ sudo systemctl enable docker
 
 #Start docker
 sudo systemctl start docker
+
+sudo usermod -aG docker manuel
