@@ -17,3 +17,9 @@ sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/dock
 
 #Install latest docker version
 sudo dnf -y install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+#Enable docker
+sudo systemctl enable docker
+
+#Start nginx
+sudo systemctl start docker
