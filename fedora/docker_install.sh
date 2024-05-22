@@ -21,5 +21,5 @@ sudo dnf -y install docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 #Enable docker
 sudo systemctl enable docker
 
-#Start nginx
+#Start docker
 sudo systemctl start docker
